@@ -2,6 +2,13 @@
 
 $dark-shadow: 0 2rem 6rem rgba(0,0,0,.3);
 
+//pb
+
+$bp-largest: 75em; //1200
+$bp-large: 68.75; //1100
+$bp-medium: 56.25em; //900
+$bp-small: 37.5em; //600
+$bp-smallest: 31.25em; //500
 
 
 
@@ -18,17 +25,19 @@ $dark-shadow: 0 2rem 6rem rgba(0,0,0,.3);
 }
 
 html{
-    box-sizing: inherit;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: sans-serif;
-    font: 400;
-    line-height: 1.6;
-    min-height: 100vh;
-    background-image: url(/image/bike.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   font-size: 1.8rem;
+   font-weight: 400;
+   line-height: 1.4rem;
+   color: black;
+   
+    
   
     
 }
@@ -36,4 +45,17 @@ body {
 a{
     text-decoration: none;
     color: white;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 6rem;
+}
+
+ul{
+    list-style: none;
+    li{
+
+    }
 }
