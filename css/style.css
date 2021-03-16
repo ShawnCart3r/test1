@@ -17,6 +17,26 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
 body {
   font-family: sans-serif;
   font-size: 1.8rem;
@@ -106,6 +126,14 @@ ul {
   background: grey;
 }
 
+@media (max-width: 28.75em) {
+  .nav .nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .greeting {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,20 +153,20 @@ ul {
 }
 
 .greeting-1 {
-  font-size: 6rem;
+  font-size: 30px;
   font-weight: 200;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .greeting-2 {
   font-size: 3rem;
   font-weight: 200;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .greeting-3 {
-  font-size: 3rem;
+  font-size: 20px;
   font-weight: 200;
 }
 
@@ -172,23 +200,6 @@ ul {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 978px) {
-  .about h1 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 788px) {
-  .about h1 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 120px;
-  }
-}
-
 .about-paragraph {
   background-color: grey;
   width: 720px;
@@ -197,6 +208,20 @@ ul {
   margin: 20px;
   margin-right: 350px;
   margin-left: 350px;
+}
+
+@media only screen and (max-width: 978px) {
+  .about-paragraph {
+    width: 700px;
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-paragraph {
+    width: 500px;
+    margin-right: auto;
+  }
 }
 
 .about-frame {
@@ -221,12 +246,9 @@ ul {
   }
 }
 
-@media only screen and (max-width: 788px) {
+@media only screen and (max-width: 768px) {
   .about-frame {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 120px;
+    width: 500 [x];
   }
 }
 
