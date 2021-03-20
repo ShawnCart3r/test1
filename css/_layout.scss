@@ -1,45 +1,40 @@
+#greeting{
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container{
-   max-width: 20rem;
-   margin: 8rem auto;
-   min-height: 9rem;
-   background-color: black;
-   box-shadow: $dark-shadow ;
-   color: white;
 }
 
-.container-about{
-   max-width: 50rem;
-   margin: 8rem auto;
-   min-height: 1rem;
-   background-color: black;
-   box-shadow: $dark-shadow ;
-   color: white;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 20px;
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: sticky;
+top: 0;
+li{
+    float: right;
 }
 
-.container-work{
-   max-width: 400rem;
-   margin: 8rem auto;
-   min-height: 1rem;
-   background-color: black;
-   box-shadow: $dark-shadow ;
-   color: white;
+li a {
+    display: block;
+    padding: 8px;
+  }
+
+  .img{
+      width: 10%;
+  }
 }
 
-*/
 
+.btn{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+   
+    display: inline-block;
+    font-size: 16px;
+    a{
+        text-decoration: $text-decoration;
+        color: white;
+    }
+}

@@ -1,79 +1,27 @@
-//colors
+//things
+$font-family: sans-serif;
+$text-decoration: none;
 
-$dark-shadow: 0 2rem 6rem rgba(0,0,0,.3);
-
-//pb
-
-$bp-largest: 75em; //1200
-$bp-large: 68.75; //1100
-$bp-medium: 56.25em; //900
-$bp-small: 37.5em; //600
-$bp-smallest: 31.25em; //500
+//media
 
 
 
-* {
+//base
+*{
     margin: 0;
     padding: 0;
 }
 
-*,
-*::before,
-*::after{
-   box-sizing: inherit; 
-  
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 html{
-    box-sizing: border-box;
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
+    font-size: 67.5%;
 
-@media (max-width: 75em) {
-    html {
-      font-size: 60%;
-    }
-  }
-  
-  /* 980px / 16px = 61.25em */
-  @media (max-width: 61.25em) {
-    html {
-      font-size: 58%;
-    }
-  }
-  
-  /* 460px / 16px = 28.75em */
-  @media (max-width: 28.75em) {
-    html {
-      font-size: 55%;
-    }
-  }
-
-body {
-    font-family: sans-serif;
-   font-size: 1.8rem;
-   font-weight: 400;
-   line-height: 1.4rem;
-   color: black;
-   
-    
-  
-    
 }
 
 a{
-    text-decoration: none;
-    color: white;
-}
-
-h1{
-    font-weight: 700;
-    text-align: center;
-    font-size: 6rem;
-}
-
-ul{
-    list-style: none;
-    
+    text-decoration: $text-decoration;
 }

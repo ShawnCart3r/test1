@@ -1,9 +1,3 @@
-//navtoggle
-
-
-
-//greeting
- 
 let myDate = new Date();
     let hrs = myDate.getHours();
 
