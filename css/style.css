@@ -67,7 +67,7 @@ ul .img {
   left: 0;
   right: 0;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 200px;
   line-height: 1.5;
 }
 
@@ -92,5 +92,96 @@ ul .img {
 
 .greeting__btn {
   margin-top: 10px;
+}
+
+.about {
+  width: 800px;
+  border: 14px solid black;
+  padding: 50px;
+  margin: 20px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: -1000px;
+}
+
+@media (max-width: 960px) {
+  .about {
+    width: 600px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about {
+    width: 240px;
+  }
+}
+
+.about__me {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  margin-left: 250px;
+}
+
+@media (max-width: 960px) {
+  .about__me {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__me {
+    width: 230px;
+    margin-left: 3px;
+  }
+}
+
+.about__photo {
+  width: 300px;
+}
+
+@media (max-width: 400px) {
+  .about__photo {
+    width: 230px;
+  }
+}
+
+.about__info {
+  width: 300px;
+  border: 14px solid black;
+  padding: 50px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+@media (max-width: 960px) {
+  .about__info {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__info {
+    width: 150px;
+    margin-left: -20px;
+  }
+}
+
+.about h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.about h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
