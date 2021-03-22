@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: black;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,8 +45,6 @@ ul .img {
 }
 
 .btn {
-  background-color: black;
-  /* Green */
   border: none;
   color: white;
   padding: 5px 20px;
@@ -53,12 +55,12 @@ ul .img {
 
 .btn a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .greeting {
   width: 300px;
-  border: 14px solid black;
+  border: 14px solid white;
   padding: 50px;
   margin: 20px;
   position: absolute;
@@ -69,6 +71,7 @@ ul .img {
   text-align: center;
   margin-top: 200px;
   line-height: 1.5;
+  color: white;
 }
 
 @media (max-width: 450px) {
@@ -96,7 +99,7 @@ ul .img {
 
 .about {
   width: 800px;
-  border: 14px solid black;
+  border: 14px solid white;
   padding: 50px;
   margin: 20px;
   position: absolute;
@@ -105,6 +108,7 @@ ul .img {
   left: 0;
   right: 0;
   bottom: -1000px;
+  color: white;
 }
 
 @media (max-width: 960px) {
@@ -120,7 +124,7 @@ ul .img {
 }
 
 .about__me {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 4px;
   padding: 5px;
   width: 300px;
@@ -152,7 +156,7 @@ ul .img {
 
 .about__info {
   width: 300px;
-  border: 14px solid black;
+  border: 14px solid white;
   padding: 50px;
   margin-left: 200px;
   margin-top: 50px;
@@ -193,7 +197,7 @@ ul .img {
 
 .work {
   width: 1000px;
-  border: 14px solid black;
+  border: 14px solid white;
   padding: 50px;
   margin: 20px;
   position: absolute;
@@ -202,6 +206,13 @@ ul .img {
   left: 0;
   right: 0;
   bottom: -2200px;
+  color: white;
+}
+
+@media (max-width: 1172px) {
+  .work {
+    bottom: -2000px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -250,5 +261,120 @@ ul .img {
 
 .work .grid .text {
   padding: 20px;
+}
+
+#footer {
+  background-color: black;
+  background-size: cover;
+  margin-top: 2975px;
+}
+
+@media (max-width: 768px) {
+  #footer {
+    margin-top: 5500px;
+  }
+}
+
+@media (max-width: 375px) {
+  #footer {
+    margin-top: 5130px;
+  }
+}
+
+#footer h1 {
+  text-align: center;
+  color: white;
+}
+
+#footer .contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+}
+
+#footer .contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  #footer .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+#footer .contact-section-header > p {
+  font-style: italic;
+}
+
+#footer .contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 35px;
+}
+
+@media (max-width: 1200px) {
+  #footer .contact-links {
+    margin-left: 88px;
+    margin-top: 1000px;
+  }
+}
+
+@media (max-width: 1172px) {
+  #footer .contact-links {
+    margin-left: 1200px;
+  }
+}
+
+@media (max-width: 800px) {
+  #footer .contact-links {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  #footer .contact-links {
+    margin-top: 5130px;
+  }
+}
+
+#footer .contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+#footer .contact-details:hover {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+#footer .btn {
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@
 
 .greeting{
     width: 300px;
-    border: 14px solid black;
+    border: 14px solid white;
     padding: 50px;
     margin: 20px;
     position: absolute;
@@ -13,6 +13,7 @@ right: 0;
 text-align: center;
 margin-top: 200px;
 line-height: 1.5;
+color: white;
 
 @media (max-width: 450px) {
   width: 150px;
@@ -41,7 +42,7 @@ line-height: 1.5;
 
 .about{
     width: 800px;
-    border: 14px solid black;
+    border: 14px solid white;
     padding: 50px;
     margin: 20px;
     position: absolute;
@@ -50,6 +51,7 @@ line-height: 1.5;
     left: 0;
     right: 0;
     bottom: -1000px;
+    color: white;
 
     @media (max-width: 960px) {
         width: 600px;
@@ -61,7 +63,7 @@ line-height: 1.5;
        }
    
     &__me{
-        border: 1px solid black;
+        border: 1px solid white;
         border-radius: 4px;
         padding: 5px;
         width: 300px;
@@ -88,7 +90,7 @@ line-height: 1.5;
 
     &__info{
         width: 300px;
-        border: 14px solid black;
+        border: 14px solid white;
         padding: 50px;
         margin-left: 200px;
         margin-top: 50px;
@@ -135,7 +137,7 @@ line-height: 1.5;
 .work{
 
     width: 1000px;
-    border: 14px solid black;
+    border: 14px solid white;
     padding: 50px;
     margin: 20px;
     position: absolute;
@@ -144,6 +146,11 @@ line-height: 1.5;
     left: 0;
     right: 0;
     bottom: -2200px;
+    color: white;
+
+    @media(max-width:1172px){
+        bottom: -2000px;
+    }
     
     @media (max-width: 960px) {
         bottom: -3500px;
@@ -184,4 +191,103 @@ line-height: 1.5;
 
     
 
+}
+
+
+#footer{
+    background-color: black;
+    background-size: cover;
+    
+    margin-top: 2975px;
+
+   
+   
+    @media (max-width: 768px) {
+        margin-top: 5500px;
+       }
+
+       @media (max-width: 375px) {
+        margin-top: 5130px;
+       }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 80vh;
+        padding: 0 2rem;
+
+       
+      
+      }
+      
+      .contact-section-header > h2 {
+        font-size: 6rem;
+      }
+      
+      @media (max-width: 28.75em) {
+        .contact-section-header > h2 {
+          font-size: 4rem;
+        }
+      }
+      
+      .contact-section-header > p {
+        font-style: italic;
+      }
+      
+      .contact-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 980px;
+        margin-top: 4rem;
+        flex-wrap: wrap;
+        margin-left: 35px;
+        @media (max-width: 1200px) {
+            margin-left: 88px;
+            margin-top: 1000px;
+           
+           }
+     
+        
+
+        @media (max-width: 1172px) {
+            margin-left: 1200px;
+           
+           }
+           @media (max-width: 800px){
+            margin-left: 5px;
+        }
+    
+           @media (max-width: 375px) {
+            margin-top: 5130px;
+           }
+
+        
+       
+      }
+      
+      .contact-details {
+        font-size: 2.4rem;
+        text-shadow: 2px 2px 1px #1f1f1f;
+        transition: transform 0.3s ease-out;
+        
+      }
+      
+      .contact-details:hover {
+        transform: translateY(8px);
+      }
+      .btn{
+          margin-top: 50px;
+      }
+
+    
 }
