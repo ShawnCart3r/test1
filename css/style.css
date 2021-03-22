@@ -358,7 +358,8 @@ ul .img {
 
 @media (max-width: 375px) {
   #footer .contact-links {
-    margin-top: 5130px;
+    margin-bottom: -80130px;
+    margin-top: -1600px;
   }
 }
 
