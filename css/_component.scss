@@ -54,6 +54,7 @@ color: white;
     color: white;
 
     @media (max-width: 960px) {
+        bottom: -1200px;
         width: 600px;
       }
 
@@ -164,6 +165,7 @@ color: white;
 
 
        @media (max-width: 400px) {
+        bottom: -3300px;
            width: 220px;
         margin-left: 10px;
        }
@@ -207,7 +209,7 @@ color: white;
        }
 
        @media (max-width: 375px) {
-        margin-top: 5130px;
+        margin-bottom: 10130px;
        }
 
     h1{
