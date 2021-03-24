@@ -1,7 +1,25 @@
+//navbar
+const navLinks = document.querySelector('.nav-links');
+const burger = document.querySelector('.hamburger-menu');
+const navbar = document.querySelector('.navbar');
+
+// Event listeners
+burger.addEventListener('click', () => {
+    navLinks.classList.toggle('nav-active');
+    burger.classList.toggle('bar-change');
+})
+
+// Sticky navbar
+window.addEventListener('scroll', () => {
+    navbar.classList.toggle('sticky', scrollY > 0)
+})
+
+
+//greeting
 let myDate = new Date();
     let hrs = myDate.getHours();
 
-    let greet;
+    let=greetings;
 
     if (hrs < 12)
         greet = 'Good Morning';
@@ -10,5 +28,5 @@ let myDate = new Date();
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Good Evening';
 
-    document.getElementById('greet').innerHTML =
+    document.getElementById('greetings').innerHTML =
         '<b>' + greet + '</b>';

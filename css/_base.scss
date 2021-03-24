@@ -1,31 +1,20 @@
-//things
-$font-family: sans-serif;
-$text-decoration: none;
-
-//media
-
-
-
-//base
 *{
     margin: 0;
     padding: 0;
 }
 
-*:before,
-*:after {
+html{
     box-sizing: border-box;
+    font-size: 67.52%;
 }
 
-html{
-    font-size: 67.5%;
-
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
 }
 
 a{
-    text-decoration: $text-decoration;
-}
-
-body{
-    background-color: black;
+    text-decoration: none;
+    color: black;
 }
