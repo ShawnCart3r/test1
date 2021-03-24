@@ -21,6 +21,34 @@ a {
   color: black;
 }
 
+.html {
+  color: blue;
+}
+
+.css {
+  color: yellow;
+}
+
+.js {
+  color: red;
+}
+
+.boot {
+  color: darkblue;
+}
+
+.sass {
+  color: pink;
+}
+
+.react {
+  color: teal;
+}
+
+.git {
+  color: black;
+}
+
 #greet {
   background-color: blue;
   display: -webkit-box;
@@ -111,10 +139,6 @@ a {
   margin: 0 1.2rem;
   position: relative;
   font-size: 24px;
-}
-
-.header .navbar .nav-links li .git {
-  color: black;
 }
 
 .header .navbar .nav-links li a::after {
@@ -270,30 +294,6 @@ a {
   text-align: center;
   font-size: 20px;
   padding: 5px;
-}
-
-.about .html {
-  color: blue;
-}
-
-.about .css {
-  color: yellow;
-}
-
-.about .js {
-  color: red;
-}
-
-.about .boot {
-  color: darkblue;
-}
-
-.about .sass {
-  color: pink;
-}
-
-.about .react {
-  color: teal;
 }
 
 .main .main {
