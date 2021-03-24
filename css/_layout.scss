@@ -1,13 +1,19 @@
 #greet{
-    background-color: blue;
+  
   
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(rgb(246, 247, 248), rgb(28, 28, 29));
+    
 }
 
 #about{
-    background-color: red;
+    background: radial-gradient(rgb(246, 247, 248), rgb(28, 28, 29));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +21,7 @@
 
 
 #work{
-    background-color: orange;
+    background: radial-gradient(rgb(246, 247, 248), rgb(28, 28, 29));
     display: flex;
     justify-content: center;
     align-items: center;

@@ -30,3 +30,7 @@ let myDate = new Date();
 
     document.getElementById('greetings').innerHTML =
         '<b>' + greet + '</b>';
+
+
+        //slideshow
+        

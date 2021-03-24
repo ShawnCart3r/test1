@@ -29,11 +29,27 @@
         </div>
     </nav>
    <section  id="greet">
-<div class="greeting">
-    <h1 id="greetings"></h1>
-    <h2>I'm Shawn Carter</h2>
-    <p class="greeting__title"> Web Developer | Writer | Model Builder</p>
-    <button class="greeting__btn"><a href="#work">See Work</a></button>
+    <div class="hero">
+      <div class="slider">
+          <div class="image"></div>
+          <div class="image"></div>
+          <div class="image"></div>
+      </div>
+  </div>
+
+
+    <div class="greeting">
+      <h1 id="greetings"></h1>
+      <h2>I'm Shawn Carter</h2>
+      <p class="greeting__title"> Web Developer | Writer | Model Builder</p>
+     
+      <button class="btn">
+        <span class="btn__visible"> <a href="#works">See Work</a> </span>
+        <span class="btn__invisible"> <a href="#works">&darr;</a></span>
+       
+    </button>
+    
+
 </div>
    </section>
    <section  id="about">
@@ -64,13 +80,13 @@
    </section>
    <section  id="work">
     <div class="main">
-        <h1>My Current Projects</h1>
+        <h1 id="works">My Current Projects</h1>
         <ul class="cards">
           <li class="cards_item">
             <div class="card">
-              <div class="card_image"><a href="https://nifty-jones-b8731b.netlify.app/" target="_blank"></a><img src="/image/slaanesh.png"></div>
+              <div class="card_image"><a href="https://nifty-jones-b8731b.netlify.app/" target="_blank"><img src="/image/slaanesh2.png"></a></div>
               <div class="card_content">
-                <h2 class="card_title">Slaanesh Page</h2>
+                <h2 class="card_title"> <a href="https://nifty-jones-b8731b.netlify.app/" target="_blank">Slaanesh Devotion</a> </h2>
                 <p class="card_text"> 
                   <i class="fab html fa-html5"></i>
                   <i class="fab  css fa-css3-alt"></i>
@@ -82,9 +98,9 @@
           </li>
           <li class="cards_item">
             <div class="card">
-                <div class="card_image"><a href="https://shawnswriting.netlify.app/" target="_blank"></a><img src="/image/writing.png"></div>
+                <div class="card_image"><a href="https://shawnswriting.netlify.app/" target="_blank"><img src="/image/writing2.png"></a></div>
               <div class="card_content">
-                <h2 class="card_title">ShawnWriteStuff</h2>
+                <h2 class="card_title"> <a href="https://shawnswriting.netlify.app/" target="_blank">Shawnwritesstuff</a> </h2>
                 <p class="card_text">
                   <i class="fab html fa-html5"></i>
                   <i class="fab  css fa-css3-alt"></i>
@@ -95,9 +111,9 @@
           </li>
           <li class="cards_item">
             <div class="card">
-                <div class="card_image"><a href="https://flamboyant-brattain-8013ce.netlify.app/" target="_blank"></a><img src="/image/hotel.png"></div>
+                <div class="card_image"><a href="https://flamboyant-brattain-8013ce.netlify.app/" target="_blank"><img src="/image/hotel2.png"></a></div>
               <div class="card_content">
-                <h2 class="card_title">Hotel</h2>
+                <h2 class="card_title"> <a href="https://flamboyant-brattain-8013ce.netlify.app/" target="_blank">Hotel</a> </h2>
                 <p class="card_text"><i class="fab html fa-html5"></i>
                   <i class="fab  css fa-css3-alt"></i>
                   <i class="fab sass fa-sass"></i></p>
@@ -107,9 +123,9 @@
           </li>
           <li class="cards_item">
             <div class="card">
-                <div class="card_image"><a href="https://xenodochial-swirles-00c3ff.netlify.app/" target="_blank"></a><img src="/image/paper.png"></div>
+                <div class="card_image"><a href="https://xenodochial-swirles-00c3ff.netlify.app/" target="_blank"><img src="/image/paper.png"></a></div>
               <div class="card_content">
-                <h2 class="card_title">Rock,Paper, Scissors</h2>
+                <h2 class="card_title"> <a href="https://xenodochial-swirles-00c3ff.netlify.app/" target="_blank">Rock, Paper, Scissor</a></a> </h2>
                 <p class="card_text"> <i class="fab html fa-html5"></i>
                   <i class="fab  css fa-css3-alt"></i>
                   <i class="fab js fa-js"></i></p>
@@ -119,9 +135,9 @@
           </li>
           <li class="cards_item">
             <div class="card">
-                <div class="card_image"><a href="https://xenodochial-montalcini-1ad09f.netlify.app/" target="_blank"></a><img src="/image/poke.png"></div>
+                <div class="card_image"><a href="https://xenodochial-montalcini-1ad09f.netlify.app/" target="_blank"><img src="/image/poke.png"></a></div>
               <div class="card_content">
-                <h2 class="card_title">Pokedex</h2>
+                <h2 class="card_title"> <a href="https://xenodochial-montalcini-1ad09f.netlify.app/" target="_blank">Pokedex</a></a> </h2>
                 <p class="card_text"> <i class="fab html fa-html5"></i>
                   <i class="fab  css fa-css3-alt"></i>
                   <i class="fab js fa-js"></i></p>
@@ -131,9 +147,9 @@
           </li>
           <li class="cards_item">
             <div class="card">
-                <div class="card_image"><a href="https://happy-mahavira-9e966c.netlify.app/" target="_blank"></a><img src="/image/csm.png"></div>
+                <div class="card_image"><a href="https://happy-mahavira-9e966c.netlify.app/" target="_blank"><img src="/image/csm.png"></a></div>
               <div class="card_content">
-                <h2 class="card_title">Chaos Quiz</h2>
+                <h2 class="card_title"> <a href="https://happy-mahavira-9e966c.netlify.app/" target="_blank">Chaos Quiz</a></h2>
                 <p class="card_text"> <i class="fab html fa-html5"></i>
                   <i class="fab  css fa-css3-alt"></i>
                   <i class="fab js fa-js"></i></p>
