@@ -114,8 +114,16 @@
     
     
   
-    margin: 400px auto;
+    margin: 200px auto;
     line-height: 1.5;
+
+    @media screen and(max-width: 800px){
+      margin: 200px  auto; 
+    }
+    @media screen and(max-width: 450px){
+      margin: 100px  auto; 
+    }
+    
 
     
     h1{
@@ -219,7 +227,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     padding: 10px;
-   margin: 200px auto;
+   margin: 100px auto;
    @media screen and(max-width: 700px){
      height: 900px;
    }
@@ -255,6 +263,7 @@
         @media screen and(max-width: 700px){
            grid-column: 1 / 2;
            margin-left: 10px;
+           
         }
 
         h1{
@@ -269,8 +278,12 @@
     }
 
     &__paragraph{
-        margin: auto;
+       
         font-size: 16px;
+       text-align: justify;
+       padding: 5px;
+       word-spacing: 1px;
+       
     }
     &__frame{
         width: 200px;
@@ -302,6 +315,9 @@
           animation-name: moveInRight;
           animation-duration: 1s;
           animation-timing-function: ease-out;
+          @media screen and(max-width: 800px){
+            margin-top: 1px; 
+          }
       }
       
       img {
