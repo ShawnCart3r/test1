@@ -14,11 +14,15 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
-
+//languages and frameworks
 .html{
     color: blue;
 }
